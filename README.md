@@ -23,7 +23,6 @@ This project involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-
 ---
 
 ## 🚀 Project Requirements
@@ -50,9 +49,18 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Product Performance**
 - **Sales Trends**
 
+## Dashboard Preview
+
+### Customer Analysis
+![Customer Dashboard](images/customer_analysis.png)
+
+### Product Analysis
+![Product Dashboard](images/product_analysis.png)
+
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
 For more details, refer to [docs/requirements.md](docs/requirements.md).
+
 
 ## 📂 Repository Structure
 ```
