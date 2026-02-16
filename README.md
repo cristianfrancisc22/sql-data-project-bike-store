@@ -2,7 +2,7 @@
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
-
+For this project I used PostgreSQL
 ---
 ## 🏗️ Data Architecture
 
@@ -68,18 +68,18 @@ data-warehouse-project/
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/                            # SQL scripts for ETL and transformations
+├── scripts/                            # SQL scripts for ETL and analytics
 │   ├── analytics/                      # SQL scripts for analysing data
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
+│   ├── layers/                         # SQL scripts for ETL
+│       ├── bronze/                     # Scripts for extracting and loading raw data
+│       ├── silver/                     # Scripts for cleaning and transforming data
+│       ├── gold/                       # Scripts for creating analytical models
+|   ├── init_database.sql               # SQL script for initializing the database
+|
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
 ---
