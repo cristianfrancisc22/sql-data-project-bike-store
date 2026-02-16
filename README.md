@@ -68,6 +68,10 @@ data-warehouse-project/
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
+├── images/
+│   ├── customer_analysis               # PowerBI dashboard screenshot of customer analysis
+│   ├── product_analysis                # PowerBI dashboard screenshot of product analysis
+│
 ├── scripts/                            # SQL scripts for ETL and analytics
 │   ├── analytics/                      # SQL scripts for analysing data
 │   ├── layers/                         # SQL scripts for ETL
